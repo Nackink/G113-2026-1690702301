@@ -1,4 +1,12 @@
-﻿namespace Lab03
+﻿
+/*
+ * Student ID : 1690702301
+ * Name       : Lab02
+ * Section    : 129C
+ * No.        : N/A
+ * Course     : GI113 Computer Programming (GI)
+ */
+namespace Lab03
 {
     internal class Program
     {
@@ -44,6 +52,13 @@
             int critMultiplierConvert = Convert.ToInt32(critMultiplier);
             Console.WriteLine($"Crit Multiplier (int cast): {critMultiplierCast}");
             Console.WriteLine($"Crit Multiplier (Convert rounded): {critMultiplierConvert}");
+
+
+
+
+
+
+
         }
     }
 }
