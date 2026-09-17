@@ -1,0 +1,57 @@
+﻿/*
+ * Student ID :1690702301
+ * Name       :Assignment01
+ * Section    :129C
+ * No.        :
+ * Course     : GI113 Computer Programming (GI)
+ */
+namespace Assignment01
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            const string GameTitle = "UmaHashiru"; 
+            var CharacterName = "Maruzensky";     
+            var rank = 'S';         
+            int characterLevel = 5;
+            float luck = 5.72f;
+            double speed = 29.5;  
+            double guts = 10;
+            double stamina = 24;
+            double power = 17;
+            double wit = 28;
+            double energy = 14;
+            double mood = 10;
+            double skill = 10;
+            bool isPlayable = true;
+
+            Console.WriteLine($"===== {GameTitle} =====");
+            Console.WriteLine($"Character Name : {CharacterName}");
+            Console.WriteLine($"Rank        : {rank}");
+            Console.WriteLine($"Level       : {characterLevel}");
+            Console.WriteLine();
+            Console.WriteLine($"===== Attributes =====");
+            Console.WriteLine($"Luck        : {luck }");
+            Console.WriteLine($"Speed       : {speed}");
+            Console.WriteLine($"Guts        : {guts}");
+            Console.WriteLine($"Stamina     : {stamina}");
+            Console.WriteLine($"Power       : {power}");
+            Console.WriteLine($"Wit         : {wit}");
+            Console.WriteLine($"Energy      : {energy}");
+            Console.WriteLine($"Mood        : {mood}");
+            Console.WriteLine($"Skill       : {skill}");
+            Console.WriteLine($"Playable    : {isPlayable}");
+            Console.WriteLine();
+
+            double heroLevelAsDouble = characterLevel; 
+            Console.WriteLine($"Level as double : {heroLevelAsDouble}");
+
+            int SpeedIncrease = (int)speed;               
+            int SpeedRounded = Convert.ToInt32(speed);      
+            Console.WriteLine($"Speed cast   : {SpeedIncrease} ");
+            Console.WriteLine($"Speed Convert   : {SpeedRounded}");
+            Console.WriteLine($"======================");
+        }
+    }
+}
